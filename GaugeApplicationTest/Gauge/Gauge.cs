@@ -638,7 +638,7 @@ namespace GaugeControl
             drawGaugeBackground = true;
             this.CenterPoint = new PointF(Width / 2, Height / 2);
 
-            m_backGroundEllipseRadius = (Math.Min(this.Size.Height, this.Size.Width) / 2) - 2;
+            m_backGroundEllipseRadius = Math.Min(this.Size.Height, this.Size.Width) / 2;
             m_Border.BorderRadius = m_backGroundEllipseRadius;
 
             UpdateNeedleBitmap();
@@ -670,6 +670,10 @@ namespace GaugeControl
 
                 drawBackGround(ggr);
                 drawGaugeBackground = false;
+
+                /* The numeric scale might have changed. */
+                Decimal val = Value;
+                SetValue(val);
             }
             
             pe.Graphics.SmoothingMode = SmoothingMode.AntiAlias;

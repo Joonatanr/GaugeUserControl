@@ -35,7 +35,7 @@
             // 
             this.gauge1.ArcColor = System.Drawing.Color.White;
             this.gauge1.ArcEndAngle = 360F;
-            this.gauge1.ArcRadius = 80F;
+            this.gauge1.ArcRadius = 70F;
             this.gauge1.ArcStartAngle = 180F;
             this.gauge1.ArcWidth = 3F;
             this.gauge1.BackColor = System.Drawing.Color.Transparent;
@@ -45,7 +45,7 @@
             this.gauge1.BorderWidth = 4F;
             this.gauge1.isArcEnabled = true;
             this.gauge1.isCustomNeedleEnabled = false;
-            this.gauge1.Location = new System.Drawing.Point(112, 147);
+            this.gauge1.Location = new System.Drawing.Point(308, 172);
             this.gauge1.MaxValue = new decimal(new int[] {
             1000,
             0,
@@ -72,7 +72,7 @@
             0,
             0,
             0});
-            this.gauge1.NumberMarkerOffset = 20;
+            this.gauge1.NumberMarkerOffset = 15;
             this.gauge1.NumberMarkerValueBegin = new decimal(new int[] {
             0,
             0,
@@ -88,7 +88,7 @@
             0,
             0,
             0});
-            this.gauge1.Size = new System.Drawing.Size(268, 246);
+            this.gauge1.Size = new System.Drawing.Size(220, 229);
             this.gauge1.TabIndex = 0;
             this.gauge1.Value = new decimal(new int[] {
             0,
