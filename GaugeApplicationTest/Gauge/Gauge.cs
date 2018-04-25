@@ -543,6 +543,7 @@ namespace GaugeControl
 
         public Gauge()
         {
+            AutoScaleMode = AutoScaleMode.None;
             SetStyle(ControlStyles.ResizeRedraw, true);
             this.DoubleBuffered = true;
             this.CenterPoint = new PointF(Width / 2, Height / 2);
