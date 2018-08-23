@@ -45,7 +45,7 @@
             this.gauge1.BorderWidth = 4F;
             this.gauge1.isArcEnabled = true;
             this.gauge1.isCustomNeedleEnabled = false;
-            this.gauge1.Location = new System.Drawing.Point(308, 172);
+            this.gauge1.Location = new System.Drawing.Point(12, 12);
             this.gauge1.MaxValue = new decimal(new int[] {
             1000,
             0,
@@ -88,7 +88,7 @@
             0,
             0,
             0});
-            this.gauge1.Size = new System.Drawing.Size(220, 229);
+            this.gauge1.Size = new System.Drawing.Size(220, 220);
             this.gauge1.TabIndex = 0;
             this.gauge1.Value = new decimal(new int[] {
             0,
@@ -98,7 +98,7 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.gauge1);
@@ -113,4 +113,3 @@
         private GaugeControl.Gauge gauge1;
     }
 }
-
